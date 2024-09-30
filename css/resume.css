@@ -9,3 +9,7 @@ html { /* Цветовая схема */
 body {
     background-color: var(--Background-Color);
 }
+
+* {
+    color: var(--Font-Color);
+}
