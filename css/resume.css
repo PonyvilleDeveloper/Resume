@@ -1,0 +1,11 @@
+html { /* Цветовая схема */
+    --Background-Color: #252422;
+    --Accent-Color: #EB5E28;
+    --Emissive-Color: #403D39;
+    --Font-Color: #CCC5B9;
+    --Contrast-Color: #FFFCF2;
+}
+
+body {
+    background-color: var(--Background-Color);
+}
