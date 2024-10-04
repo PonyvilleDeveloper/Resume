@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+* {
+    color: var(--Font-Color);
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
 html { /* Цветовая схема */
     --Background-Color: #252422;
     --Accent-Color: #EB5E28;
@@ -12,9 +19,8 @@ body {
     background-color: var(--Background-Color);
 }
 
-* {
-    color: var(--Font-Color);
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
+header {
+    width: 100vw;
+    height: fit-content;
+    border-bottom: 1px solid var(--Contrast-Color);
 }
