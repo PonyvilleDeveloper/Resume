@@ -1,3 +1,5 @@
+/* Файл "точки входа" стилей */
+
 @import url("./resume.css");
 
 @media(max-width: 800px) {
