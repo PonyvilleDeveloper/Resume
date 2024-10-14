@@ -6,10 +6,13 @@
     }
     div#photocard {
         width: 300px;
-        float: left;
-        margin-right: 15px;
+        float: left;        
+        margin: 0 15px 10px 0;
     }
     a.socnet-logo img {
         width: 25px;
+    }
+    ul {
+        margin-left: 350px;
     }
 }
