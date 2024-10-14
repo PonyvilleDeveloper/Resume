@@ -9,4 +9,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+    a.socnet-logo img {
+        width: 50px;
+    }
 }

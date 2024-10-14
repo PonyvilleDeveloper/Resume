@@ -8,4 +8,7 @@
         width: 300px;
         float: left;
     }
+    a.socnet-logo img {
+        width: 25px;
+    }
 }
