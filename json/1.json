@@ -1,9 +1,9 @@
 {
-    "Name":"Midnight",
-    "isDark": true,
-    "--Background-Color": "#778DA9",
-    "--Accent-Color": "#E0E1DD",
-    "--Emissive-Color": "#1B263B",
-    "--Font-Color": "#415A77",
-    "--Contrast-Color": "#0D1B2A"
+    "Name":"Standard light",
+    "isDark": false,
+    "--Background-Color": "#FFFFFF",
+    "--Accent-Color": "#EF8354",
+    "--Emissive-Color": "#4F5D75",
+    "--Font-Color": "#BFC0C0",
+    "--Contrast-Color": "#2D3142"
 }

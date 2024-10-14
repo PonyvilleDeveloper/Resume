@@ -7,5 +7,8 @@ function select_color_theme() {
         if(key != "Name" && key != "isDark")
             html.setProperty(key, theme[key])
         else if(key == "isDark" && theme[key])
-            console.log("Dark theme selected")
+            document.getElementById("deco").src = (theme[key]) ?
+        "https://cdnstatic.rg.ru/uploads/images/136/56/12/Depositphotos_26744613_m-2015.jpg"
+            :
+        "https://i.pinimg.com/736x/dc/8d/3d/dc8d3d5921d989a7964455f2547adab1.jpg";
 }
