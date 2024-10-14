@@ -1,5 +1,6 @@
 {
     "Name":"Midnight",
+    "isDark": true,
     "--Background-Color": "#778DA9",
     "--Accent-Color": "#E0E1DD",
     "--Emissive-Color": "#1B263B",

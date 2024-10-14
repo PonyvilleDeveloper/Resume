@@ -1,5 +1,6 @@
 {
     "Name":"Standard",
+    "isDark": true,
     "--Background-Color": "#252422",
     "--Accent-Color": "#EB5E28",
     "--Emissive-Color": "#403D39",

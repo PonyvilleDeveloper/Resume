@@ -26,7 +26,6 @@ async function load_colorthemes() {
                 let select = document.getElementById("color-theme-select")
                 let option = document.createElement("option")
                 option.innerText = theme.Name.toString()
-                option.value = theme.Name.toString()
                 select.appendChild(option)
             }
         )
