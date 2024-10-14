@@ -5,6 +5,7 @@
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
+    color: var(--Font-Color);
 }
 
 html { /* Цветовая схема */
@@ -13,13 +14,6 @@ html { /* Цветовая схема */
     --Emissive-Color: #403D39;
     --Font-Color: #CCC5B9;
     --Contrast-Color: #FFFCF2;
-}
-
-* { /* Повсеместный шрифт */
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    color: var(--Font-Color);
 }
 
 body {

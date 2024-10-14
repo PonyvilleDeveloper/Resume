@@ -26,13 +26,14 @@ async function load_colorthemes() {
         let select = document.getElementById("color-theme-select")
         let option = document.createElement("option")
         option.innerText = theme.Name.toString()
-        option.value = i
+        option.value = theme.Name.toString()
         select.appendChild(option)
     }
 }
 
 async function load() {
     await load_content()
+    await load_colorthemes()
 }
 
 document.addEventListener("DOMContentLoaded", load)
