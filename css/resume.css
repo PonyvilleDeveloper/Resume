@@ -33,6 +33,7 @@ h1 {
     text-wrap: balance;
     width: 80%;
     text-align: center;
+    margin: 10px;
 }
 
 select, option {
