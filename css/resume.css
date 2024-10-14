@@ -36,6 +36,10 @@ h1 {
     margin: 10px;
 }
 
+/* h1 span {
+    font-size: 1rem;
+} */
+
 select, option {
     height: 25px;
     background-color: var(--Emissive-Color);
@@ -43,7 +47,7 @@ select, option {
 }
 
 hr {
-    width: 98vw;
+    width: 98%;
 }
 
 hr:last-of-type {

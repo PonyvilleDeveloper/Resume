@@ -4,4 +4,8 @@
     header {
         flex-direction: row;
     }
+    div#photocard {
+        width: 300px;
+        float: left;
+    }
 }
