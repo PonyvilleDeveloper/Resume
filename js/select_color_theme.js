@@ -1,6 +1,6 @@
 function select_color_theme() {
-    const selected = document.ThemeSelector.options[document.ThemeSelector.selectedIndex].text
-    const theme = COLOR_THEMES[selected]
+    const options = document.getElementsByTagName('select')[0].options
+    const theme = COLOR_THEMES[options[options.selectedIndex].text]
 
     let html = document.getElementsByTagName("html")[0].style
     for(let key in theme)
