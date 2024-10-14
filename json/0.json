@@ -1,8 +1,8 @@
 {
-    "Name":"Midnight",
-    "--Background-Color": "#778DA9",
-    "--Accent-Color": "#E0E1DD",
-    "--Emissive-Color": "#1B263B",
-    "--Font-Color": "#415A77",
-    "--Contrast-Color": "#0D1B2A"
+    "Name":"Standard",
+    "--Background-Color": "#252422",
+    "--Accent-Color": "#EB5E28",
+    "--Emissive-Color": "#403D39",
+    "--Font-Color": "#CCC5B9",
+    "--Contrast-Color": "#FFFCF2"
 }

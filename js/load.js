@@ -20,8 +20,9 @@ async function load_colorthemes() {
         let response = await fetch(`/Resume/json/${i}.json`)
         if(response.status != 200)
             break;
-        let theme = await JSON.parse(response.json())
-        COLOR_THEMES[theme.Name.toString()] = theme
+        response.json().then(theme => 
+            COLOR_THEMES[theme.Name.toString()] = theme
+        )
 
         let select = document.getElementById("color-theme-select")
         let option = document.createElement("option")

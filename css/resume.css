@@ -23,19 +23,10 @@ body {
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
     height: fit-content;
-}
-
-hr {
-    width: 99vw;
-}
-
-hr:last-of-type {
-    display: none;
 }
 
 select#color-theme-select {
@@ -43,4 +34,16 @@ select#color-theme-select {
     color: var(--Font-Color);
     background-color: var(--Emissive-Color);
     border-radius: 2.5px;
+}
+
+hr {
+    width: 98vw;
+}
+
+hr:last-of-type {
+    display: none;
+}
+
+article {
+    padding: 0 1%;
 }
