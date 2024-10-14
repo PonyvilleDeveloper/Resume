@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-* {
+* { /* Повсеместный шрифт */
     color: var(--Font-Color);
     font-family: "Merriweather", serif;
     font-weight: 300;
     font-style: normal;
-    color: var(--Font-Color);
 }
 
 html { /* Цветовая схема */
@@ -18,10 +17,30 @@ html { /* Цветовая схема */
 
 body {
     background-color: var(--Background-Color);
+    margin: 0;
+    padding: 0;
 }
 
 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: 100vw;
     height: fit-content;
-    border-bottom: 1px solid var(--Contrast-Color);
+}
+
+hr {
+    width: 99vw;
+}
+
+hr:last-of-type {
+    display: none;
+}
+
+select#color-theme-select {
+    height: 25px;
+    color: var(--Font-Color);
+    background-color: var(--Emissive-Color);
+    border-radius: 2.5px;
 }
