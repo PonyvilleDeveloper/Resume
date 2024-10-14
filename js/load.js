@@ -23,7 +23,7 @@ async function load_colorthemes() {
         response.json().then(
             theme => {
                 COLOR_THEMES[theme.Name.toString()] = theme
-                let select = document.getElementById("color-theme-select")
+                let select = document.getElementsByTagName("select")[0]
                 let option = document.createElement("option")
                 option.innerText = theme.Name.toString()
                 select.appendChild(option)
