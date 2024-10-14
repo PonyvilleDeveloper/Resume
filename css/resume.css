@@ -29,9 +29,14 @@ header {
     height: fit-content;
 }
 
+h1 {
+    text-wrap: balance;
+    width: 80%;
+    text-align: center;
+}
+
 select, option {
     height: 25px;
-    color: var(--Font-Color);
     background-color: var(--Emissive-Color);
     border-radius: 2.5px;
 }
