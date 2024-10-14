@@ -17,7 +17,7 @@ async function load_content() {
 var COLOR_THEMES = {}
 async function load_colorthemes() {
     for(let i = 0; true; i++) {
-        let response = await fetch(`Resume/json/${i}.json`)
+        let response = await fetch(`/Resume/json/${i}.json`)
         if(response.status != 200)
             break;
         let theme = await JSON.parse(response.json())
