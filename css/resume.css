@@ -51,7 +51,7 @@ hr {
     width: 98%;
 }
 
-hr:last-of-type, hr:first-of-type {
+hr:last-of-type {
     display: none;
 }
 
@@ -65,4 +65,12 @@ summary {
 
 details {
     margin: 10px 0;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
 }
