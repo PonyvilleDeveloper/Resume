@@ -3,7 +3,7 @@
     "isDark": false,
     "--Background-Color": "#FFFFFF",
     "--Accent-Color": "#EF8354",
-    "--Emissive-Color": "#BFC0C0",
+    "--Emissive-Color": "#DFE0E0",
     "--Font-Color": "#4F5D75",
     "--Contrast-Color": "#2D3142"
 }

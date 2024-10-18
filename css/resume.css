@@ -62,3 +62,7 @@ article {
 summary {
     font-weight: bold;
 }
+
+details {
+    margin: 10px 0;
+}
