@@ -73,7 +73,7 @@ details summary::before {
     margin: 3px;
     content: '+';
     border: 1px solid var(--Emissive-Color);
-    padding: 0 3px;
+    padding: 0 4px;
     border-radius: 5px;
 }
 
